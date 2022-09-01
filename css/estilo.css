@@ -20,3 +20,6 @@ img {
     background-image: url(../assets/img/fonde.jpg);
     background-attachment: fixed;
 }
+.color{
+    background-color: rgba(0, 255, 255, 0.316);
+}

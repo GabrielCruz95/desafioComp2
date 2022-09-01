@@ -31,7 +31,7 @@
                                     <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Nosotros</a>
+                                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,7 +44,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                                    <a class="nav-link" href="#">Contacto</a>
                                 </li>
                                 
                             </ul>
@@ -57,13 +57,56 @@
         <main class="row">
             <!-- IMAGEN-->
             <div class="col-12 col-lg-6">
-                <img src="../assets/img/nosotros.jpg" alt="Nosotros">
+                <h1>Donde Encontrarnos</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.5809040132867!2d-65.27408468517508!3d-24.221453384359258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f45e643b99b%3A0xb9443f7683ceb3af!2sJujuy%20San%20Salvador%20de%20Jujuy!5e0!3m2!1ses!2sar!4v1661987183898!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <!--NOSOTROS Y CONTENIDO EN TEXTO-->
             <div class="col-12 col-lg-6">
-                <h1>ODONTOLOGIA DIENTITOS</h1>
-                <h2>Trabajamos de manera integral</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius error possimus omnis hic dolore. At deserunt error quisquam, laborum sequi reprehenderit harum ad aliquam! Eius earum necessitatibus reprehenderit voluptate enim laborum, sequi adipisci quisquam, rem eum libero est quas commodi iure ipsam debitis expedita cupiditate neque. In iusto, delectus, eos modi id suscipit laudantium odio omnis accusamus, illo qui cumque quidem. Eius aliquam sed sequi animi consequuntur? Dolorem ducimus minima porro amet reiciendis iusto, similique delectus non sequi consequuntur odit voluptates vel! Et, at ipsum similique provident minima veritatis voluptatum quaerat voluptatem optio. Assumenda vitae deserunt, pariatur voluptatem fugiat magni. Atque voluptates quae, totam, fugiat at ipsum deserunt animi maxime dignissimos eaque harum culpa, illum debitis. Quis, eaque nisi. Sint delectus cupiditate possimus iusto dolore iure natus nihil sit consequatur sapiente, corporis sed quo molestias sunt, itaque rerum sequi nam! Illum quaerat, autem vitae cumque asperiores reprehenderit fugiat beatae perspiciatis?</p>
+                <h2>Consultas o nos Contactamos con usted</h2>
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="validationCustom01" value="" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustom02" class="form-label">Telefono</label>
+                        <input type="text" class="form-control" id="validationCustom02" value="" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Email</label>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                                Email Incorrecto.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Consultas</label>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                            Acepta que nos contactemos con usted con los datos brindados.
+                            </label>
+                            <div class="invalid-feedback">
+                            You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                </form>
             </div>
         </main>
         <footer class="row gradiente">
